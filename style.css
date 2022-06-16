@@ -1,0 +1,72 @@
+body {
+  padding-top: 60px;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 100px 0;
+  max-width: 100% !important;
+}
+
+.anchor {
+  height: 56px;
+}
+
+hr {
+  max-width: 100px;
+  margin: 1rem auto;
+}
+
+header {
+  padding: 100px 0;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
+h3 {
+  margin: 1rem 0;
+}
+
+.about-content {
+  background-color: #0057b7;
+}
+
+.tech-content {
+  background-color: #ffd700;
+}
+
+.project-box {
+  margin: 5rem auto;
+}
+
+.icons-container div {
+  margin: 1rem;
+}
+
+#hk-ferry-schedules-pic,
+#game-of-life-pic {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+#github-link {
+  color: black;
+}
+
+/* #mongoDB-icon {
+  width: 40px;
+  height: auto;
+}
+
+.mongoDB-icon-container {
+  padding-bottom: 20px;
+} */

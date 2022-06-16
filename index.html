@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Lionel Yau's Portfolio</title>
+</head>
+<body id="welcome">
+  <nav id="nav-bar" class="navbar navbar-expand-lg bg-light position-fixed top-0 vw-100">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#welcome">Hi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav navbar-right">
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#techstack">Tech Stack</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#contacts">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="header-content">
+    <div class="header-content-inner text-center">
+      <h1>Welcome to my portfolio</h1>
+      <hr>
+      <p>I am Lionel Yau.</p>
+      <p>Let me tell you about myself</p>
+      <a href="#about" class="btn btn-primary btn-xl">Let's start!</a>
+    </div>
+  </header>
+
+  <section class="container about-content text-light about-content" id="about">
+    <div class="row">
+      <div class="col-lg-12 col-lg-offset-2 text-center">
+        <h2 class="section-heading">About me</h2>
+        <hr>
+        <p>I am a self-taught programmer.</p>
+        <p>I like programming and learning about computer science.</p>
+        <p>I also do weight training regularly at 24/7 fitness gyms.</p>
+        <p> </p>
+        <hr>
+        <p>Also, #Fix The Money, Fix The World</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container tech-content tech-content" id="techstack">
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-2 text-center">
+        <h2>Tech Stack</h2>
+        <hr>
+        <div class="icons-container d-flex justify-content-center">
+          <!-- <div class="mongoDB-icon-container"><img src="./img/mongoDB.png" alt="mongoDB icon" id="mongoDB-icon"></div> -->
+          <div>MongoDB</div>
+          <div>Express.js</div>
+          <div><i class="fa-brands fa-react fa-2xl"></i></div>
+          <div><i class="fa-brands fa-node-js fa-2xl"></i></div>
+        </div>
+        <hr>
+        <p>My main stack is the MERN fullstack.</p>
+      </div>
+      <div class="col-lg-6 col-lg-offset-2 text-center">
+        <p>Here are some programming languages I know:</p>
+        <hr>
+        <div class="icons-container d-flex justify-content-center">
+          <div><i class="fa-brands fa-python fa-2xl"></i></div>
+          <div><i class="fa-brands fa-java fa-2xl"></i></div>
+          <div>C/C++</div>
+        </div>
+        <hr>
+        <p>And hopefully more in the future.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="projects">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Projects</h2>
+        <hr>
+      </div> 
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="project-box">
+            <img src="./img/gameoflife.png" alt="game of life" id="game-of-life-pic">
+            <a href="./game_of_life//gameOfLife.html" target="_blank"><h3>Conway's Game of Life</h3></a>
+            <p>An interactive viewer of the Conway's Game of Life written in JS with p5js library. Cellular automatons are the best. Am I right?</p>
+          </div>
+        </div>
+        <div class="col-12 text-center">
+          <div class="project-box">
+            <img src="./img/hkferryschedules.png" alt="hk ferry schedules" id="hk-ferry-schedules-pic">
+            <a href="https://aqueous-sierra-92005.herokuapp.com/" target="_blank"><h3>HK Ferry Schedules (WIP)</h3></a>
+            <p>A dynamics website to highlight the next possible schedule for you to never miss a ferry.</p>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="contacts">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Github Profile</h2>
+        <hr>
+        <a href="https://github.com/lionelyau23" id="github-link" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="3957fec7e0.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

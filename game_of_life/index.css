@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+table {
+  margin-top: .25rem;
+}
+
+body {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  min-width: 400px;
+}
+
+.main-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#canvas {
+  margin: 1rem 25px;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+.title-container {
+  text-align: center;
+}
+
+.display-container {
+  background-color: white;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  margin: 1rem;
+  flex: 1;
+  padding: .25rem;
+}
+
+.game-parameters-container {
+  min-width: 360px;
+}
+
+.game-controls {
+  min-width: 260px;
+}
+
+.controls-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.controls-container div {
+  margin-top: .5rem;
+}
+
+.display-container p {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.user-inputs-container {
+  display: flex;
+  margin: 0.25rem 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.selector-description {
+  text-align: end;
+}
+
+td {
+  padding: 0 .25rem;
+}
+
+td.selector {
+  text-align: center;
+  height: 30px;
+}
+
+.birthRule-selectors,
+.surviveRule-selectors {
+  display: flex;
+}
+
+.birth-selector,
+.survive-selector {
+  border: none;
+  cursor: pointer;
+  aspect-ratio: 1;
+}
+
+.birth-selector.active,
+.survive-selector.active {
+  background-color: black;
+  color: white;
+  box-shadow: none;
+}
+
+.color-picker {
+  width: 100%;
+}
+
+th {
+  font-weight: normal;
+}
+
+.game-statistics-container p {
+  margin: 0;
+  text-align: center;
+}
+
+.color-display-container {
+  display: flex;
+  justify-content: center;
+}
+
+#colors-stat-display td {
+  text-align: center;
+}
+
+.preview-image-container img {
+  max-height: 120px;
+}
